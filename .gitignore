@@ -9,6 +9,9 @@
 # production
 /build
 
+# config
+/util/Congig.js
+
 # misc
 .DS_Store
 .env.local

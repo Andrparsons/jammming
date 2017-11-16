@@ -1,5 +1,7 @@
-const ClientId = 'XXXXXXXXXXX';
-const redirectURI = 'http://localhost:3000/';
+import Config from './Config';
+
+const ClientId = Config.ClientId;
+const redirectURI = Config.redirectURI;
 
 let accessToken;
 

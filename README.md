@@ -4,4 +4,12 @@ Connects to Spotify Search API to find tracks and populates the results. Can add
 
 Created playlists can be saved to the users account.
 
-Projet needs a spotify account and client ID to work. Runs off localhost:3000.
+Project needs a spotify account and client ID to work.
+Create a config file in the util directory.
+
+```javascript
+const Config = {
+  ClientId: 'YOUR_CLIENT_ID',
+  redirectURI: 'http://localhost:3000/'
+}
+```
