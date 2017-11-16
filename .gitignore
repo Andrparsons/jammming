@@ -10,7 +10,7 @@
 /build
 
 # config
-/util/Congig.js
+/src/util/Config.js
 
 # misc
 .DS_Store
